@@ -1,0 +1,1 @@
+SELECT * FROM {{ ref('core_banking_accounts') }}

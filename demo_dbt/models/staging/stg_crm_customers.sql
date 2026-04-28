@@ -1,0 +1,1 @@
+SELECT * FROM {{ ref('crm_customers') }}

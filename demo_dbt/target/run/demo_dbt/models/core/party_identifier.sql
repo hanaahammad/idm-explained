@@ -1,0 +1,25 @@
+
+  
+    
+    
+
+    create  table
+      "demo_dbt"."main"."party_identifier__dbt_tmp"
+  
+    as (
+      SELECT 'P001' AS party_id, 'CORE' AS source_system, 'C001' AS source_id
+UNION ALL
+SELECT 'P001', 'CRM', 'CRM789'
+UNION ALL
+SELECT 'P002', 'CORE', 'C002'
+UNION ALL
+SELECT 'P002', 'CRM', 'CRM456'
+UNION ALL
+SELECT 'P003', 'CORE', 'C003'
+UNION ALL
+SELECT 'P003', 'CRM', 'CRM999'
+UNION ALL
+SELECT 'P_BANK', 'INTERNAL', 'BANK001'
+    );
+  
+  

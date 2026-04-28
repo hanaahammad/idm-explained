@@ -1,0 +1,12 @@
+name: demo_dbt
+version: 1.0
+profile: demo_dbt
+
+models:
+  demo_dbt:
+    staging:
+      +materialized: view
+    core:
+      +materialized: table
+    marts:
+      +materialized: table

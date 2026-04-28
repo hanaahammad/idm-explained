@@ -1,0 +1,1 @@
+SELECT * FROM "demo_dbt"."main"."core_banking_accounts"
